@@ -32,6 +32,7 @@ export default function SearchBox({ importInfo }) {
             }
             console.log(weather);
             setError(false);
+            setCity("");
             importInfo(weather);
             return weather;
         }
